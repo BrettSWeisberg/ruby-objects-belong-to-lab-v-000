@@ -5,7 +5,7 @@ class Song
      @song = song
    end
 
-   def title
+   def self.title
      @@title
    end
 
