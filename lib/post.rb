@@ -5,8 +5,8 @@ class Post
      @title = title
    end
 
-   def author
-     @name
+   def self.author
+     @@name
   end
 
 
